@@ -1,0 +1,18 @@
+{
+  "bot_token": "123456:AABBCCddeEFFggHHiiJJkkLLmmNNooPPqq",
+  "google_credentials": "google_cloud_translate_credentials.json",
+  "project_id": "telegram-bot-translate",
+
+  "language_a": { "code": "zh-CN", "name": "中文", "flag": "🇨🇳" },
+  "language_b": { "code": "en", "name": "English", "flag": "🇺🇸" },
+  
+  "max_messages_per_minute": 60,
+  "reply_delay_seconds": 0.1,
+  "confidence_threshold": 0.75,
+  "short_text_bypass_chars": 6,
+
+  "allowed_chat_ids": [-1001234567890],
+  "allowed_admin_usernames": ["@opswill"],
+
+  "log_level": "DEBUG"
+}
